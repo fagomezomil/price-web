@@ -1,0 +1,25 @@
+# deps / build
+/node_modules
+/.next/
+/out/
+/build
+next-env.d.ts
+*.tsbuildinfo
+/coverage
+
+# datos (nada de parquets acá: llegan por R2)
+*.parquet
+*.duckdb
+*.wal
+
+# env
+.env*
+!.env.example
+
+# misc
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+.pnpm-debug.log*
+.vercel
